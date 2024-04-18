@@ -68,6 +68,20 @@ name5 = names[4]
 
 print(name1, name2, name3, name4, name5 )
 
+# ES. 3-2:
+
+'''Start with the list you used in Exercise 3-1,
+but instead of just printing each person’s name, 
+print a message to them. 
+The text of each message should be the same, 
+but each message should be personalized with the person’s name.'''
+
+# Soluzione ES. 3-2:
+
+namess: list = ["Michele","Mattia","Giacomo","Andrea","Federico"]
+
+
+
 
 
 

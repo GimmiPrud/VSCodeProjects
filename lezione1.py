@@ -28,6 +28,18 @@ print(N_lower)
 print(N_title)
 print(N_upper)
 
+# ES. 2-5:
+'''Find a quote from a famous person you admire. Print the quote and the name of its author.
+Your output should look something like the following, including the quotation marks:
+Albert Einstein once said, “A person who never made a mistake never tried anything new.”'''
+
+# Soluzione ES. 2-5:
+
+name: str = "Thomas Edison"
+cit: str = "\"Molti dei fallimenti della vita sono persone che non si sono rese conto di quanto fossero vicine al successo quando hanno rinunciato\""
+print(f"{name} una volta disse:\n {cit}")
+
+
   
 
 

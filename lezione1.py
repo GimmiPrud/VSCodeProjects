@@ -40,6 +40,9 @@ cit: str = "\"Molti dei fallimenti della vita sono persone che non si sono rese 
 print(f"{name} una volta disse:\n {cit}")
 
 
+
+
+
   
 
 

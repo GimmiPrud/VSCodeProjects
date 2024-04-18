@@ -47,9 +47,31 @@ Then use the removesuffix() method to display the filename without the file exte
 
 # Soluzione ES. 2-8:
 
-File_name = 'python_notes.txt'
+File_name: str = 'python_notes.txt'
 
 print(File_name.removesuffix('.txt'))
+
+# ES. 3.1:
+
+'''Store the names of a few of your friends in a list called names. 
+Print each person’s name by accessing each element in the list, one at a time.'''
+
+# Soluzione ES. 3.1:
+
+names: list = ["Michele","Mattia","Giacomo","Andrea","Federico"]
+
+name1 = names[0]
+name2 = names[1]
+name3 = names[2]
+name4 = names[3]
+name5 = names[4]  
+
+print(name1, name2, name3, name4, name5 )
+
+
+
+
+
 
 
 

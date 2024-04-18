@@ -18,7 +18,6 @@ N: str = "Carletto"
 
 print(N.upper(), N.title(), N.lower())
 # oppure:
-
 N: str = "Carletto"
 
 N_lower = N.lower()

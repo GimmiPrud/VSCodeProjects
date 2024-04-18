@@ -29,6 +29,7 @@ print(N_title)
 print(N_upper)
 
 # ES. 2-5:
+
 '''Find a quote from a famous person you admire. Print the quote and the name of its author.
 Your output should look something like the following, including the quotation marks:
 Albert Einstein once said, “A person who never made a mistake never tried anything new.”'''
@@ -38,6 +39,21 @@ Albert Einstein once said, “A person who never made a mistake never tried anyt
 name: str = "Thomas Edison"
 cit: str = "\"Molti dei fallimenti della vita sono persone che non si sono rese conto di quanto fossero vicine al successo quando hanno rinunciato\""
 print(f"{name} una volta disse:\n {cit}")
+
+# ES. 2-8:
+
+'''Python has a removesuffix() method that works exactly like removeprefix(). Assign the value 'python_notes.txt' to a variable called filename.
+Then use the removesuffix() method to display the filename without the file extension, like some file browsers do'''
+
+# Soluzione ES. 2-8:
+
+File_name = 'python_notes.txt'
+
+print(File_name.removesuffix('.txt'))
+
+
+
+
 
 
 

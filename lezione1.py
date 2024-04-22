@@ -79,6 +79,8 @@ but each message should be personalized with the person’s name.'''
 # Soluzione ES. 3-2:
 
 namess: list = ["Michele","Mattia","Giacomo","Andrea","Federico"]
+for name in namess:
+    print(f"{name} cosa fai oggi pomeriggio ?")
 
 
 

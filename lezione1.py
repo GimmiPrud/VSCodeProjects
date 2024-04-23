@@ -150,7 +150,7 @@ del(people[0:])
 
 print(people)
 
-# exit() per uscire dadl programma.
+# exit() per uscire dal programma.
 
 # ES. 3-8:
 
@@ -197,6 +197,24 @@ best_place.sort(reverse= True)
 print(best_place)
 
 # ES. 3-9:
+'''
+Working with one of the programs from Exercises 3,
+use len() to print a message indicating the number of people you’re inviting to dinner.'''
+
+# Soluzione ES. 3-9:
+
+# Continuo dell'esercizio 3-4/3-7:
+
+people: list = ["Giulio Cesare","Napoleone","Dio"]
+
+people_invite: int = len(people)
+
+print(f"Il numero degli invitati è {people_invite}")
+
+# ES. 3-10:
+
+
+
 
 
 

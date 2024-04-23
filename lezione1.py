@@ -93,6 +93,15 @@ such as “I would like to own a Honda motorcycle.”'''
 
 machine: list = ["bmv","audi","toyota"]
 
+print(f"mi piacerebbe sfrecciare con una {machine[0]} M5  ")
+
+print(f"vorrei tanto possedere un {machine[1]} R1")
+
+print(f"spero un giorno di correre con una {machine[2]} Supra")
+
+
+
+
 
 
 

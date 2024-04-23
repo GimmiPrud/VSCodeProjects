@@ -89,7 +89,7 @@ such as a motorcycle or a car, and make a list that stores several examples.
 Use your list to print a series of statements about these items, 
 such as “I would like to own a Honda motorcycle.”'''
 
-# Soluzione ES. 3-3
+# Soluzione ES. 3-3:
 
 machine: list = ["bmv","audi","toyota"]
 
@@ -98,6 +98,52 @@ print(f"mi piacerebbe sfrecciare con una {machine[0]} M5  ")
 print(f"vorrei tanto possedere un {machine[1]} R1")
 
 print(f"spero un giorno di correre con una {machine[2]} Supra")
+
+# ES. 3-4:
+
+'''If you could invite anyone, living or deceased, to dinner, who would you invite?
+Make a list that includes at least three people you’d like to invite to dinner.
+Then use your list to print a message to each person, inviting them to dinner'''
+
+# Soluzione ES. 3-4:
+
+people: list = ["Giulio Cesare","Napoleone","Dio"]
+
+for p in people:
+    
+    print(f" Ciao {p} ci saresti questo fine settimana per una cena, ho già sentito gli altri")
+
+# ES. 3-5:
+
+'''You just heard that one of your guests can’t make the dinner, so you need to send out a new set of invitations. You’ll have to think of someone else to invite.
+• Start with your program from Exercise 3-4.
+Add a print() call at the end of your program, stating the name of the guest who can’t make it.
+• Modify your list, replacing the name of the guest who can’t make it with the name of the new person you are inviting.
+• Print a second set of invitation messages, one for each person who is still in your list.'''
+
+# Soluzione ES. 3-5:
+
+people: list = ["Giulio Cesare","Napoleone","Dio"]
+
+for p in people:
+    
+    print(f" Ciao {p} ci saresti questo fine settimana per una cena, ho già sentito gli altri")
+    
+print(f" Niente ,{people[2]} come sempre non c'è ")
+
+people[2] = "Maradona"
+
+for p in people:
+    print(f" Ciao {p}, cena ore 20:00, puntuale")
+    
+
+
+
+
+
+
+
+
 
 
 

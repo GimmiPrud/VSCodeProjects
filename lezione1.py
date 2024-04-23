@@ -212,6 +212,41 @@ people_invite: int = len(people)
 print(f"Il numero degli invitati è {people_invite}")
 
 # ES. 3-10:
+'''
+Think of things you could store in a list. 
+For example, you could make a list of mountains, rivers, countries, cities, languages, or anything else you’d like.
+Write a program that creates a list containing these items and then uses each function introduced in this chapter at least once.'''
+
+# Soluzione ES. 3-10:
+
+y = input("scrivi qualcosa: ")
+x = []
+x.append(y)
+while y in x:
+    z = input("scrivi qualcosa: ")
+    x.append(z)
+    if len(x) == 8:
+        print(x)
+        x.append("...")
+        print(sorted(x))
+        print(len(x))
+        x.pop(2)
+        x.insert(3,"barca")
+        break 
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
 
 
 
